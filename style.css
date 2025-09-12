@@ -1,10 +1,11 @@
 body {
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
+  ;
   margin: 0;
   padding: 0;
   background: #f4f4f9;
   color: #333;
-   line-height: 1.6;
+  line-height: 1.6;
 }
 
 header {
@@ -28,15 +29,18 @@ footer {
   background: #222;
   color: white;
 }
-.date{
-   text-align: right;
-   font-size: 13px;
-   color: #000000;
+
+.date {
+  text-align: right;
+  font-size: 13px;
+  color: #000000;
 }
-pre{
+
+pre {
   font-size: 20px;
 }
-.experience{
+
+.experience {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,44 +56,62 @@ pre{
   font-size: 13px;
   color: #000;
 }
-.Training{
+
+.training {
   margin: 0%;
 }
-.TC{
+
+.tc {
   color: hsl(0, 2%, 47%);
-  margin-top: 2%; 
-}
-@media (max-width: 700px) {
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #333;
-  color: white;
+  margin-top: 2%;
 }
 
-header {
-  background: #b9c4d1;
-  color: #333;
-  padding: 20px;
-  text-align: center;
-}
-
-h2 {
-  color: #b9c4d1;
-}
-  }
-section {
-  margin-bottom: 30px;
-}
-ul li {
+.skill li {
   display: inline-block;
   background: #e0e0e0;
   padding: 5px 10px;
   border-radius: 8px;
   margin: 5px;
 }
+
+@media (max-width: 700px) {
+  body {
+    background: #333;
+    color: white;
+  }
+
+  .skill li {
+    background: #575151;
+  }
+
+  .date {
+    color: #bab5b5;
+  }
+
+  .tc {
+    color: #e6e3e3;
+  }
+
+  h2 {
+    color: #b9c4d1;
+  }
+
+  header {
+    background: #b9c4d1;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+section {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+
 h1:hover {
-  color: #ff6347;
+  color: #246a12;
   cursor: pointer;
 }
