@@ -1,6 +1,5 @@
 body {
   font-family: 'Poppins', sans-serif;
-  ;
   margin: 0;
   padding: 0;
   background: #f4f4f9;
@@ -21,6 +20,8 @@ h2 {
 
 main {
   padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 footer {
@@ -52,11 +53,6 @@ pre {
   font-weight: 600;
 }
 
-.date {
-  font-size: 13px;
-  color: #000;
-}
-
 .training {
   margin: 0%;
 }
@@ -72,6 +68,7 @@ pre {
   padding: 5px 10px;
   border-radius: 8px;
   margin: 5px;
+  font-size: 14px;
 }
 
 @media (max-width: 700px) {
@@ -102,6 +99,10 @@ pre {
     padding: 20px;
     text-align: center;
   }
+
+  main {
+    padding: 20px 10px;
+  }
 }
 
 section {
@@ -114,4 +115,5 @@ section {
 h1:hover {
   color: #246a12;
   cursor: pointer;
+  transition: color 0.3s ease;
 }
