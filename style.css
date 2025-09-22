@@ -110,10 +110,3 @@ section {
   padding-bottom: 15px;
   border-bottom: 1px solid #ddd;
 }
-
-
-h1:hover {
-  color: #246a12;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
